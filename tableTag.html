@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블태그</title>
+</head>
+<body>
+
+    <h1>테이블태그</h1>
+    <p>웹문서에서 자료를 정리할때 자주 사용하는 요소- 도표를 만드는 요소</p>
+    <ul>
+        <li>tr - 행 : 가로행 td의 부모태그</li>
+        <li>td - 열 : 세로열 (요소를 담는 태그) </li>
+        <li>caption - tr또는 td 에 속하지 않으며 상단에 제목으로 사용 </li>
+        <li>thead - 제목을 나타내는 구조로 tr을 한번더 감쌈<br>
+                td대신 th로 작성한다.
+            <br>기본값으로 볼드값을 가지고 있음 </li>
+        <li>tbody - 본문을 나타내는 구조로 영역을 표시</li>
+        <li>tfoot - 요약 하단에 마침말같은 구조로 표시</li>
+        <li>rowspan - 속성 으로 세로병합을 의미함 작성법은 속성="숫자"</li>
+        <li>colspan - 속성 으로 가로병합을 의미함 작성법은 속성="숫자"</li>
+    </ul>
+
+    <p>예시</p>
+
+    <table border="1">
+        <caption>선물용과 가정용 상품구성</caption>
+       <thead>
+            <tr>
+                <th>용도</th>
+                <th>중량</th>
+                <th>개수</th>
+                <th>가격</th>
+            </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td rowspan="2">선물용</td>
+            <td>3kg</td>
+            <td>11~16과</td>
+            <td>35,000원</td>
+        </tr>
+        <tr>
+            <td>5kg</td>
+            <td>18~26과</td>
+            <td>52,000원</td>
+        </tr>
+       </tbody>
+
+    </table>
+
+
+    
+</body>
+</html>
