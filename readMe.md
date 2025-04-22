@@ -13,41 +13,42 @@
 
 👉 [📂 포트폴리오 전체 보기 (dothome)](https://yourname.dothome.co.kr)
 
+
 ---
 
 ## 🛠️ 진행한 프로젝트
 
-### 1. 📌 **MyBlog**
-> 나만의 기술 블로그를 만든 프로젝트
+### 1. 📌 **프로젝트1**
+> 공공기관리뉴얼웹사이트
 
 - 사용 기술: HTML, CSS, JavaScript
-- 주요 기능: 마크다운 게시글 작성, 댓글 기능
+- 주요 기능: 예약시스템 작성, 반응형 디자인 ( mainpage )
 - GitHub: [🔗 바로가기](https://github.com/username/myblog)
 
 ---
 
-### 2. 📌 **TodoList**
-> 할 일 목록 앱 (React 버전)
+### 2. 📌 **프로젝트2**
+> 제품중심신규웹사이트
 
-- 사용 기술: React, Zustand, TailwindCSS
-- 주요 기능: CRUD, 다크모드 지원
+- 사용 기술: HTML, CSS, JavaScript
+- 주요 기능: 장바구니기능, 네이버API활용로그인 ( mainpage  + subpage2)
 - GitHub: [🔗 바로가기](https://github.com/username/todolist)
 
 ---
 
-### 3. 📌 **MiniPortfolio**
-> 간단한 자기소개 페이지
+### 3. 📌 **프로젝트3**
+> 인물형팬페이지 
 
 - 사용 기술: HTML, CSS
-- 특징: 반응형 디자인, 부드러운 스크롤
+- 특징: 부드러운 스크롤 , ( mainpage  + subpage4)
 - GitHub: [🔗 바로가기](https://github.com/username/miniprofile)
 
 ---
 
 ## 👩‍💻 About Me
 
-- 🔭 현재 프론트엔드 공부 중!
-- 🌱 JavaScript와 React에 집중하고 있어요.
+- 🔭 현재 웹디자인& 프론트엔드 공부 중!
+- 🌱 UIUX 기획과 Html,Css,JavaScript 에집중하고 있어요.
 - 📫 연락: your.email@example.com
 
 ---
