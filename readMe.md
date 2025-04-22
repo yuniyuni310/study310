@@ -11,7 +11,7 @@
 
 ## 🔗 포트폴리오 메인 링크
 
-👉 [📂 포트폴리오 전체 보기 (dothome)](https://yourname.dothome.co.kr)
+👉 [📂 포트폴리오 전체 보기 (dothome)](http://yuniyuni.dothome.co.kr/)
 
 
 ---
@@ -62,4 +62,4 @@
 
 ---
 
-> 포트폴리오를 더 보고 싶다면 👉 [yourname.dothome.co.kr](https://yourname.dothome.co.kr) 방문해주세요!
+> 포트폴리오를 더 보고 싶다면 👉 [yourname.dothome.co.kr](http://yuniyuni.dothome.co.kr/) 방문해주세요!
