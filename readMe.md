@@ -24,6 +24,7 @@
 - 사용 기술: HTML, CSS, JavaScript
 - 주요 기능: 예약시스템 작성, 반응형 디자인 ( mainpage )
 - GitHub: [🔗 바로가기](https://github.com/username/myblog)
+- GitHubCODE: [🔗 바로가기](https://github.com/username/myblog)
 
 ---
 
@@ -33,6 +34,7 @@
 - 사용 기술: HTML, CSS, JavaScript
 - 주요 기능: 장바구니기능, 네이버API활용로그인 ( mainpage  + subpage2)
 - GitHub: [🔗 바로가기](https://github.com/username/todolist)
+- GitHubCODE: [🔗 바로가기](https://github.com/username/myblog)
 
 ---
 
@@ -42,6 +44,7 @@
 - 사용 기술: HTML, CSS
 - 특징: 부드러운 스크롤 , ( mainpage  + subpage4)
 - GitHub: [🔗 바로가기](https://github.com/username/miniprofile)
+- GitHubCODE: [🔗 바로가기](https://github.com/username/myblog)
 
 ---
 
