@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>단순하고 간단한 방명록 💝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 우리들의 이야기 🌟</h1>
+            <p>수업의 마지막 날, 간단하게 수업후기를 남겨주세요<br>
+            앞으로의 여러분의 포폴과 취업을 응원하겠습니다.</p>
+        </header>
+
+        <!-- 입력 폼 -->
+        <div class="input-section">
+            <div class="input-group">
+                <label for="userName">이름 ✍️</label>
+                <input type="text" id="userName" placeholder="이름을 입력해주세요">
+            </div>
+
+            <div class="input-group">
+                <label for="userMessage">한 줄 소감 💬</label>
+                <textarea id="userMessage" placeholder="수업을 듣고 느낀 점, 앞으로의 다짐 등을 자유롭게 작성해주세요!"></textarea>
+            </div>
+
+          <div class="input-group">
+    <label>카드 색깔 선택 🎨</label>
+    <div class="color-picker">
+        <div class="color-option selected" style="background: #FFE5E5;"></div>
+        <div class="color-option" style="background: #FFF4E5;"></div>
+        <div class="color-option" style="background: #FFFFE5;"></div>
+        <div class="color-option" style="background: #E5FFE5;"></div>
+        <div class="color-option" style="background: #E5F5FF;"></div>
+        <div class="color-option" style="background: #F0E5FF;"></div>
+        <div class="color-option" style="background: #FFE5F5;"></div>
+    </div>
+</div>
+
+            <button class="submit-btn" onclick="addCard()">방명록 남기기 ✨</button>
+        </div>
+
+        <!-- 방명록 카드들이 표시될 영역 -->
+        <div class="guestbook-grid" id="guestbookGrid"></div>
+
+        <!-- 통계 -->
+        <div class="stats">
+            <h2>📊 현재까지 <span id="totalCount">0</span>명이 방명록을 남겼습니다!</h2>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
