@@ -1,11 +1,22 @@
-// ⭐ 선택된 색깔을 저장하는 변수 (처음 기본 색상)
-let selectedColor = '#FFE5E5';
+// ⭐ 색깔 목록 배열 (색 순서는 HTML의 버튼 순서와 같게!)
+const colors = [
+    '#FFE5E5',
+    '#FFF4E5',
+    '#FFFFE5',
+    '#E5FFE5',
+    '#E5F5FF',
+    '#F0E5FF',
+    '#FFE5F5'
+];
+
+// ⭐ 선택된 색깔을 저장하는 변수 (처음 기본 색상 = 첫 번째 색)
+let selectedColor = colors[0];
 
 // ⭐ 색깔 선택 버튼들 가져오기
 const colorOptions = document.querySelectorAll('.color-option');
 
 // ⭐ 각각의 색깔 버튼에 클릭 이벤트 붙이기
-colorOptions.forEach(function(option) {
+colorOptions.forEach(function(option, index) {
     option.addEventListener('click', function() {
 
         // 1) 모든 버튼에서 'selected' 클래스를 제거
@@ -16,8 +27,8 @@ colorOptions.forEach(function(option) {
         // 2) 클릭한 요소에 'selected' 클래스 추가
         this.classList.add('selected');
 
-        // 3) 선택된 색깔을 변수에 저장
-        selectedColor = this.dataset.color;
+        // 3) 색 배열에서 같은 순서(index)의 색을 선택해서 저장
+        selectedColor = colors[index];
     });
 });
 
